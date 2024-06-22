@@ -1,0 +1,24 @@
+{
+  "name": "a-note",
+  "version": "1.0.0",
+  "description": "Documentação e sdks simples para implementação de Nota fiscal pelo ministério da Fazenda",
+  "main": "a-note/index.ts",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "build": "tsc"
+  },
+  "author": "eletroswing",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.7.2",
+    "node-forge": "^1.3.1",
+    "xml-crypto": "^6.0.0",
+    "xmlbuilder": "^15.1.1",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/node-forge": "^1.3.11"
+  }
+}
